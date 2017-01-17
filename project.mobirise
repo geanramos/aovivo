@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Ao vivo",
-    "currentPage": "index.html",
+    "currentPage": "previdencia.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -11,7 +11,7 @@
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
         "warningColor": "#2969b0",
-        "dangerColor": "#f28281",
+        "dangerColor": "#e25041",
         "titleFont": "Open Sans",
         "subtitleFont": "Open Sans",
         "textFont": "Open Sans",
@@ -21,8 +21,11 @@
       }
     },
     "versionFirst": "3.10.7",
-    "uniqCompNum": 11,
-    "versionPublish": "3.10.7"
+    "uniqCompNum": 24,
+    "versionPublish": "3.10.7",
+    "favicon": "",
+    "noImageResize": "",
+    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='https://cursomuquirana.com/politica.html'>cookie policy</a>."
   },
   "pages": {
     "index.html": {
@@ -124,7 +127,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Afiliado Muquirana</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#facebook-comments-block-a\">PERGUNTAS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form2-4\">INSCREVA-SE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning\" href=\"https://www.facebook.com/groups/geanramos\" target=\"_blank\">GRUPO NO FACEBOOK</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form2-4\">INSCREVA-SE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#facebook-comments-block-a\">PERGUNTAS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"previdencia.html\">PREVIDENCIA</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning\" href=\"https://www.facebook.com/groups/geanramos\" target=\"_blank\">GRUPO NO FACEBOOK</a></li>"
         },
         {
           "_inherit": "msg-box5",
@@ -132,6 +135,11 @@
             "Theme"
           ],
           "_name": "msg-box4",
+          "_styles": {
+            "H3": {
+              "font-size": "32px"
+            }
+          },
           "_anchor": "msg-box4-6",
           "_params": {
             "imageSize": "70",
@@ -174,12 +182,43 @@
           },
           "title": "Baixe nosso E-book",
           "text": "",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://www.pag.so/GLR/como-gerar-leads-sem-gastar-nenhum-centavo\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-save mbr-iconfont mbr-iconfont-btn\"></span>BAIXE AGORA!</a>",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://www.pag.so/GLR/como-gerar-leads-sem-gastar-nenhum-centavo\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-save mbr-iconfont mbr-iconfont-btn\"></span>BAIXE AGORA!</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
           "_styles": {
             "H3": {
-              "font-size": "32px"
+              "font-size": "36px",
+              "text-align": "right"
             }
-          }
+          },
+          "_anchor": "msg-box1-e",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": true,
+            "showText": false,
+            "showTitle": true
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://www.pag.so/GLR/como-gerar-leads-sem-gastar-nenhum-centavo\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-save mbr-iconfont mbr-iconfont-btn\"></span>BAIXE AGORA!</a>",
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "title": "Baixe agora! &nbsp;E-book de Apoio &gt;&gt;"
         },
         {
           "alias": "facebook-comments",
@@ -296,7 +335,292 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2017 Afiliado Muquirana. <a href=\"https://cursomuquirana.com/termos.html\" target=\"_blank\">Termos de Uso</a> | <a href=\"https://cursomuquirana.com/politica.html\">Politica de Privacidade</a> | <a href=\"https://cursomuquirana.com/disclaimer.html\">Aviso Legal</a>"
+          "text": "Copyright (c) 2017 Afiliado Muquirana. <a href=\"https://cursomuquirana.com/termos.html\" target=\"_blank\">Termos de Uso</a> | <a href=\"https://cursomuquirana.com/politica.html\" target=\"_blank\">Politica de Privacidade</a> | <a href=\"https://cursomuquirana.com/disclaimer.html\" target=\"_blank\">Aviso Legal</a>"
+        }
+      ]
+    },
+    "previdencia.html": {
+      "settings": {
+        "title": "SUA PREVIDÊNCIA ESTÁ EM RISCO!",
+        "meta_descr": "A aposentadoria pública nunca deve ser sua primeira opção. E muito menos a melhor delas. Saiba agora o que fazer para ter um futuro tranquilo."
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#00a885!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-f",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/afiliado-muquirana-189x41-61-590x128.png",
+              "height": 128,
+              "alt": "Afiliado Muquirana",
+              "link": "https://cursomuquirana.com/aovivo",
+              "title": "Afiliado Muquirana",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "user2",
+              "family": "MobiriseIcons",
+              "link": "https://cursomuquirana.com/aovivo/",
+              "size": 0,
+              "newWindow": false
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Afiliado Muquirana</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">HOME</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#form2-4\">INSCREVA-SE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#facebook-comments-block-a\">PERGUNTAS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"previdencia.html\">PREVIDENCIA</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning\" href=\"https://www.facebook.com/groups/geanramos\" target=\"_blank\">GRUPO NO FACEBOOK</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-g",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Afiliado Muquirana. <a href=\"https://cursomuquirana.com/termos.html\" target=\"_blank\">Termos de Uso</a> | <a href=\"https://cursomuquirana.com/politica.html\" target=\"_blank\">Politica de Privacidade</a> | <a href=\"https://cursomuquirana.com/disclaimer.html\" target=\"_blank\">Aviso Legal</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form2",
+          "_anchor": "form2-h",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/2850x848-previdencia-00-2000x595.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#000000",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "VOCÊ TEM MENOS DE 60 ANOS?<div>SUA PREVIDÊNCIA ESTÁ EM RISCO</div>",
+          "subtitle": "COMECE JÁ O SEU PRÓPRIO PLANO DE APOSENTADORIA!<br><br>Digite seu e-mail abaixo e acesse o relatório exclusivo:<br>",
+          "form": {
+            "action": "https://67.e-goi.com/w/ceNekQYe8lxBVHjKGe9d1357fb",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Digite seu melhor e-mail Aqui!..."
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><span class=\"mbri-save mbr-iconfont mbr-iconfont-btn\"></span>BAIXE AGORA!</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "font-size": "36px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-n",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgColor": "#282727",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": true
+          },
+          "title": "POR QUE BAIXAR ESSE RELATÓRIO?",
+          "text": "<p>Monte agora mesmo um Plano A para sua Aposentadoria.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"previdencia.html#content2-j\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-down mbr-iconfont mbr-iconfont-btn\"></span>LEIA MAIS!</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-j",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote><p>Caro Leitor,</p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Você já sabe que o governo do presidente <b>Michel Temer</b> está planejando uma ampla reforma da previdência social.  Se você tem menos de 60 anos terá de obedecer às novas regras e será diretamente afetado.&nbsp;</span></p></blockquote><blockquote><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">A aposentadoria pública, no entanto, nunca deve ser sua primeira opção. E muito menos a melhor delas. Entenda que tal escolha rende pouco e está sujeita a disputas políticas.</span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\"><br></span><span style=\"font-size: 1.07rem; line-height: 1.5;\">Mas não se preocupe com o Plano B; pense no Plano A. Nossa proposta aqui é mostrar-lhe boas saídas para conseguir aproveitar um futuro tranquilo.</span></p></blockquote><blockquote><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">Você não precisa abrir mão da aposentadoria pública, nem deve fazer isso. Afinal, ela pode tornar-se uma sobremesa razoável. Contudo, seu foco deve estar no prato principal.</span></p></blockquote><blockquote><p><span style=\"font-size: 1.09rem; line-height: 1.5;\">No Relatório Especial, falamos sobre PGBL, VGBL e demais alternativas vantajosas ao seu dispor. Seu futuro interessa a você e a sua família; por que terceirizá-lo?</span></p></blockquote>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#fff",
+              "font-size": "36px"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form2",
+          "_anchor": "form2-k",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": false
+          },
+          "title": "Digite seu e-mail e acesse o relatório exclusivo:",
+          "subtitle": "Subscribe to our Newsletter",
+          "form": {
+            "action": "https://67.e-goi.com/w/ceNekQYe8lxBVHjKGe9d1357fb",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Digite seu melhor e-mail Aqui!..."
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><span class=\"mbri-save mbr-iconfont mbr-iconfont-btn\"></span>RECEBER!</a>"
+        },
+        {
+          "_inherit": "social-buttons2",
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons4",
+          "_anchor": "social-buttons4-l",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "text": "",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/geanramos\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/geanramoss\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://google.com/+geanramos\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://youtube.com/geanramos?sub_confirmation=1\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://twitter.com/GeanRamos/media\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Tumblr\" target=\"_blank\" href=\"https://geanramos.tumblr.com/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-tumblr\"></i></a>    "
         }
       ]
     }
